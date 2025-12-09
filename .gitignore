@@ -1,0 +1,36 @@
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.apk
+*.ap_
+
+# iOS
+ios/.generated/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+build/
+.cache/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase config files (не публикуй секретные файлы!)
+/google-services.json
+/GoogleService-Info.plist
+/firebase.json
